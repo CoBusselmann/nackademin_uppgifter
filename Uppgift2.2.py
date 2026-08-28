@@ -5,7 +5,7 @@ y1 = float(input("Ange avstånd för Y1: "))
 y2 = float(input("Ange avstånd för Y2: "))
 print ("Hej")
 utrakning = math.sqrt((x1 - x2)**2 +  (y1-y2)**2)
-
+print
 print(f"{utrakning:.2f}")
 """
 import math
