@@ -1,3 +1,4 @@
+print ("Hej")
 name = input("Vad heter du?")
 age = int(input("Hur gammal är du?"))
 hobby = input("Vad har du för hobby på fritiden")
