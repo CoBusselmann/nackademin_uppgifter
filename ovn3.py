@@ -31,3 +31,27 @@ elif cost_for_tickets_one_year > gym_membership:
 
 #Uppgift 3.3
 
+"""
+print("-----Kolla vilket betyd du fick på provet-----")
+points = int(input("Hur många poäng fick du på provet? "))
+if points > 50:
+    print("Du har angivit fel antal poäng")
+elif points >= 45:
+    print("Du har fått A på provet, Grattis!")
+elif points >= 40:
+    print("Du fick B i betyg")
+elif points >= 35:
+    print("Du har betyg C")
+elif points >= 30:
+    print("Du har betyg D")
+elif points >= 25: 
+    print("Du har betyg E")
+elif points >= 0:
+    print("Du har betyd F tyvärr")
+else:
+    print("Det fanns inte så många poäng att få")
+    """
+
+#---------------------------------------------------------------------------------------------------------
+
+#Uppgift 3.
