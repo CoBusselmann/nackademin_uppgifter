@@ -1,6 +1,6 @@
 #Uppgift 3.1
-
-"""price_per_minut = 1.20
+"""
+price_per_minut = 1.20
 speaking_time_minut = float(input("Ange hur många minter du har pratat i telefon senaste månaden: "))
 cost_per_month = speaking_time_minut * price_per_minut
 
@@ -54,4 +54,42 @@ else:
 
 #---------------------------------------------------------------------------------------------------------
 
-#Uppgift 3.
+#Uppgift 3.4
+
+"""
+temp = float(input("Vad är Temperaturen i ditt hem? "))
+if temp < 18:
+    print("Nu börjar det bli kallt.")
+    print("Sätt på värmen.")
+    if temp < 12:
+        print("Ta på dig jackan")
+else: 
+    print("Det är varmt!")
+    if temp >= 22:
+        print("Sänk värmen!")
+print(f"Temperaturen är {temp}")
+"""
+
+#-------------------------------------------------------------------------------------------------------------
+
+#Uppgift 3.5
+
+max_length = 600
+max_width = 200
+max_thick = 100
+
+min_length = 140
+min_width = 90
+min_thick = 90  
+
+print("Skriv in Längd, Bredd och tjocklek på ditt paket.")
+langd = int(input("Längd: "))
+bredd = int(input("Bredd: "))
+tjock = int(input("Tjocklek: "))
+
+if (min_length <= langd <= max_length and
+    min_width <= bredd <= max_width and
+    min_thick <= tjock <= max_thick):
+    print("Paketet PASSAR")
+else:
+    print("Paketet passar INTE.")
