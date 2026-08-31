@@ -74,6 +74,7 @@ print(f"Temperaturen är {temp}")
 
 #Uppgift 3.5
 
+"""
 max_length = 600
 max_width = 200
 max_thick = 100
@@ -93,3 +94,5 @@ if (min_length <= langd <= max_length and
     print("Paketet PASSAR")
 else:
     print("Paketet passar INTE.")
+    """
+
