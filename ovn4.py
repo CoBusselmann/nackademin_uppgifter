@@ -63,15 +63,19 @@ while True:
     print("Programmet avslutas")
 """
 
+"""
 storsta = 0
-minsta = 1.e300 # ett stort tal
+minsta = 12000000000 # ett stort tal
 while True:
-    tal = float(input('> '))
+    tal = float(input("> "))
     if tal < 0:
         break
     if tal > storsta:
         storsta = tal
-        if tal < minsta:
-            minsta = tal
+    if tal < minsta:
+        minsta = tal
     print(f'Största talet: {storsta}')
     print(f'Minsta talet: {minsta}')
+    """
+
+
