@@ -9,19 +9,17 @@ print("]")
 """
 
 print("---Har Emilie halsfluss eller inte---")
-ont_i_halsen = input("Har du ont i halsen? (Ja/Nej): ")
-vita_prickar = input("Har du vita prickar på mandlarna? (Ja/Nej): ")
-feber = input("Har du feber? (Ja/Nej):  ")
+
 while True:
+    ont_i_halsen = input("Har du ont i halsen? (Ja/Nej): ")
+    vita_prickar = input("Har du vita prickar på mandlarna? (Ja/Nej): ")
+    feber = input("Har du feber? (Ja/Nej):  ")
     if ont_i_halsen == "ja" and vita_prickar == "ja":
-        print("Du har med störst sannolikhet Halsfluss. ")
-        break
+        print("Du har med störst sannolikhet Halsfluss. ")  
     elif ont_i_halsen == "ja" and vita_prickar == "nej" and feber == "ja":
         print("Med störst sannolikhet förkyllning. ")
-        break
     elif ont_i_halsen == "nej" and vita_prickar == "ja":
         print("Med störst sannolikhet halsfluss, men kan vara annat. ")
-        break
     else:
         print("Du är frisk, vad skönt!!")
         break
